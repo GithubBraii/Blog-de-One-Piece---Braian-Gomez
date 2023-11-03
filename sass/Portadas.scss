@@ -1,0 +1,51 @@
+/* configuracion de imagenes Barra Superior */
+
+.ImagenPrincipal .ImagOnePiece{
+    width: 240px;
+    height: 100%;
+}
+
+.Portada_Principal {
+    margin: 80px auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(40, 17, 17, 0.587);
+    border-radius: 100px;
+    border: 1px solid rgba(255, 0, 0, 0.173);
+    width: 30%;
+    height: 200px;
+    
+}
+
+.Portada_Principal-biografia{
+    margin: 80px auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(6, 1, 50, 0.544);
+    border-radius: 100px;
+    border: 1px solid rgb(11, 2, 2);
+    width: 30%;
+    height: 300px;
+}
+
+.Portada_Principal-contactos{
+        margin: 80px auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(6, 1, 50, 0.544);
+    border-radius: 100px;
+    border: 1px solid rgb(11, 2, 2);
+    width: 20%;
+    height: 240px;
+}
+
+.Portada_Principal-imags{
+    margin: 80px auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(6, 1, 50, 0.544);
+    border-radius: 100px;
+    border: 1px solid rgb(11, 2, 2);
+    width: 20%;
+    height: 240px;
+}

@@ -1,0 +1,70 @@
+/* configuracion de Pagina de Canciones */
+
+
+.Cancion_img{
+    width: 180px;
+    height: 180px;
+}
+
+.Cancion1 , .Cancion2 , .Cancion3 , .Cancion4 , .Cancion5{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 180px 1fr; /*Manejo de Columnas*/
+    grid-template-rows: repeat(4,80px); /*Manejo de Filas*/
+    grid-template-areas: 
+    "Cancion1_h2 Cancion1_h2"
+    "Cancion1__img Cancion__musica1";
+}
+
+.Cancion1_h2{
+    grid-area: Cancion1_h2; 
+}
+
+.Cancion1__img{
+    grid-area: Cancion1__img;
+}
+
+.Cancion__musica1{
+    grid-area: Cancion__musica1;
+}
+
+.Cancion1_Parrafo{
+    grid-area: Cancion1_Parrafo;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* configuracion de Canciones */
+.Cancion1_h2{
+    text-align: center;
+}
+
+.Cancion1__img{
+    width: 180px;
+    height: 180px;
+}
+
+.Cancion__musica1{
+    display: inline-block;
+    border-top: 2px;
+}
+
+.Cancion1_Parrafo{
+    text-align: center;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* CANCIONES RESPONSIVOS */
+@media screen and (max-width: 576px){
+    .contenedor-canciones{
+        width: 100%;
+    }
+    .Cancion1 , .Cancion2 , .Cancion3 , .Cancion4 , .Cancion5{
+        width: 100%;
+        grid-template-columns: 180px 1fr; /*Manejo de Columnas*/
+        grid-template-rows: 80px 180px 80px 80px 80px; /*Manejo de Filas*/
+        grid-template-areas: 
+        "Cancion1_h2 "
+        "Cancion1__img Cancion__musica1";
+    }
+
+}

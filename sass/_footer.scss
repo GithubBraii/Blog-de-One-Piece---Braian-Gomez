@@ -1,0 +1,78 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* configuracion del Footer General */
+#Footer{
+    padding: 0 10% 0 10%;
+    background-color: rgba(0, 0, 0, 0.713);
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: auto;
+    width: 100%;
+    backdrop-filter: blur(6px) saturate(143%);
+    -webkit-backdrop-filter: blur(6px) saturate(143%);
+    border: 1px solid rgba(247, 161, 62, 0.881);
+}
+
+.footer__Box3-Info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/*////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////*/
+/* Configuracion de la Img Footer */
+.footer__Box1-Icon img{
+    width: 70px;
+    height: 70%;
+}
+
+
+/* Configuracion de los LINKS */
+.footer__Box2-Links ul li {
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* Configuracion del Link "Volver al Inicio" */
+.footer__Box2-Links ul li a {
+    color: white;
+}
+
+
+/* Configuracion de los LINKS */
+.footer__Box3-Info_Redes ul li {
+    display: inline-block;
+}
+
+/* Configuracion de los Iconos de LINKS */
+.footer__Box3-Info_Redes  ul li img{
+    width: 40px;
+    height: 40px;
+}  
+
+/* Configuracion de Info Personal: BraianG Asus */
+.footer__Box3-Info-Personal{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Configuracion del Icono Final*/
+.footer__Box3-Info-Personal img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+
+/* Configuracion del PARRAFO Final */
+.footer__Box3-Info-Personal .footer_parrafo{
+    color: black;
+}
+
+@media (max-width:576px) {
+    #Footer{
+        flex-direction: column;
+    }
+}

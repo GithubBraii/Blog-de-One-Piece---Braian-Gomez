@@ -1,0 +1,32 @@
+header {
+    padding: 0 2px;
+    width: 100%;
+    height: 80px;
+    background-color: rgba(9, 99, 255, 0.439);
+    display: flex; /* CONVERTIMOS EN FLEX EL HEADER PARA PODER ACOMODAR LOS HIJOS (ACOMODANDO LOS LINKS BIO-IMG-CONT) */
+    backdrop-filter: blur(6px) saturate(143%) ;
+    -webkit-backdrop-filter: blur(6px)saturate(143%);
+    background-color: rgba(0, 0, 0, 0.225); 
+    border-radius: 0px 0px 12px 12px;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav {
+    display: flex; /* EL FLEX AL NAV PARA ACOMODAR TODOS SUS ELEMENTOS */
+    align-items: center; /* ALINEACION ARRIBA/ABAJO */
+    justify-content: space-between; /* ALINEACION IZQ/DER */
+    width: 100%;
+    margin: 0 5%;
+}
+
+header ul li{
+    display: inline-block; 
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-size: 20px; 
+}

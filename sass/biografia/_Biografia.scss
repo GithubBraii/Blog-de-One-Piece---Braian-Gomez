@@ -1,0 +1,187 @@
+/*////////////////////////////////////////////////////////*/
+/* Configuracion de GRILLAS BIOGRAFIA */
+
+.main .section .BiografiaInicial-Biografia{
+    margin-top: 30px;
+    padding: 0 10%;
+}
+
+/* Configuracion Biografia de LUFFY */
+.Bio__Titulo_Luffy{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 400px 150px;
+    grid-template-areas: 
+    "Bio_titulo__Luffy Bio_titulo__Luffy"
+    "Bio_img__Luffy Bio_parrafo__Luffy"
+    ;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.Bio_titulo__Luffy{
+    grid-column: 2 / 4;
+    
+}
+
+.Bio_img__Luffy {
+    grid-column: 1 / 2;
+
+}
+
+.Bio_parrafo__Luffy{
+    grid-area: 2 / 3;
+    text-align: center;
+}
+
+
+/* Configuracion Biografia de ZORO */
+.Bio_Zoro-Roronoa{
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 200px 150px;
+    grid-template-areas: 
+    "Bio_titulo__zoro Bio_titulo__zoro"
+    "Bio_parrafo-zoro Bio_img__zoro"
+    ;
+    column-gap: 5px;
+    row-gap: 1px;
+}
+
+.Bio_titulo__zoro{
+    grid-column: 2 / 4 ;
+    grid-row: 1 / 2; 
+    text-align: center;
+}
+
+.Bio_img__zoro {
+    grid-area: 1 / 4;
+}
+
+.Bio_parrafo-zoro{
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+/* Configuracion Biografia de NAMI */
+.Bio_Nami {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 200px 150px;
+    grid-template-areas: 
+    "Bio_titulo__Nami Bio_titulo__Nami"
+    "Bio_img__Nami Bio_parrafo__Nami "
+    ;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.Bio_titulo__Nami {
+    grid-column: 3 / 4;
+}
+
+.Bio_img__Nami {
+    grid-column: 1 / 3 ;
+    grid-row: 1 / 2; 
+    text-align: center;
+}
+
+.Bio_parrafo__Nami {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    text-align: center;
+}
+
+/* Configuracion Biografia de USOPP */
+.Bio_Usopp {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 200px 150px;
+    grid-template-areas: 
+    "Bio_titulo__Usopp Bio_titulo__Usopp"
+    "Bio_parrafo__Usopp Bio_img__Usopp"
+    "Bio_subtitulo__Usopp"
+    ;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.Bio_titulo__Usopp {
+    grid-column: 3 / 4;
+}
+
+.Bio_img__Usopp {
+    grid-column: 4 / 4;
+}
+
+.Bio_parrafo__Usopp {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+
+/* Configuracion Biografia de SENJI */
+.Bio_Sanji {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 400px 150px;
+    grid-template-areas: 
+    "Bio_titulo Bio_titulo"
+    "Bio_img Bio_parrafo"
+    "Bio_subtitulo Bio_subtitulo"
+    ;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.Bio_titulo__Senji{
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+}
+
+.Bio_img__Senji {
+grid-row: 2 / 3;
+}
+
+.Bio_parrafo__Senji{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    text-align: center;
+}
+
+.Bio_Chopper {
+    display: grid;
+    grid-template-columns: 300px 200px;
+    grid-template-rows: 100px 200px 150px;
+    grid-template-areas: 
+    "Bio_titulo__Usopp Bio_titulo__Usopp"
+    "Bio_parrafo__Usopp Bio_img__Usopp"
+    "Bio_subtitulo__Usopp"
+    ;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+
+.Bio_titulo__Chopper {
+    grid-column: 3 / 4;
+}
+
+.Bio_img__Chopper {
+    grid-column: 4 / 4;
+}
+
+.Bio_parrafo__Chopper {
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+
+/*////////////////////////////////////////////////////////*/
+/* configuracion de imagen BARCO SONY */
+.Barco__Sony-1{
+    width: 40%;
+    height: 40%;
+    margin: 0 10px 0 10px;
+    margin-right:  50% ;
+    
+}

@@ -1,0 +1,45 @@
+/*////////////////////////////////////////////////////////*/
+/* configuracion de "Formulario de Contacto */
+.form{
+    background-color: white;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    backdrop-filter: blur(2px);
+    background-color: rgba(247, 161, 62, 0.881);
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    /* Borde de los Inputs */
+    outline: none;
+    border: none;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px; 
+}
+
+.form_mensaje{
+    resize: none;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+}
+
+.form_rta{
+    background-color: rgba(218, 218, 255, 0.714);
+    border: none;
+    font-weight: 900 ;
+    cursor: pointer;
+}
+
+.form_titulo{
+    color: black;
+}

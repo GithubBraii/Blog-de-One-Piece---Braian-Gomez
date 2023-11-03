@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+ul , a {
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover{
+    color: rgb(255, 234, 79); /*Crea el efecto de cambio de color cuando acercamos la Flecha*/
+    transition: .5s;
+}
+
+/* a:visited{
+    color: rgb(211, 163, 255);  
+} */
+
+
+a:active{
+    color: rgb(235, 235, 95); /*Mantener Apretado el link del sitio creara un efecto de cambio de color sobre la Letra*/
+    box-shadow: 5px 5px 5px 5px rgb(255, 255, 177);
+
+}
+
+span{
+    color: yellow;
+    border-bottom: 3px solid rgba(243, 248, 186, 0.881);
+}
+
+body {
+    background-image: url(../imags/anime-oceano-cielo);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+/* configuracion de Texto Biografico */
+main .BiografiaInicial .Biografia {
+    text-align: center;
+    font-family:'Sofia Sans Set Condensed', 'san-serif';
+    font-weight: bold;
+    color: rgb(11, 10, 10);
+}
+
+section{
+    margin-top: 30px;
+    padding: 0 10%;
+}
